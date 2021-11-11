@@ -1,0 +1,122 @@
+@font-face {
+    font-family:Marzo ;
+    src: url(./fonts/FontsFree-Net-marzo.ttf);
+}
+@font-face {
+    font-family:din next ;
+    src: url(./fonts/DIN\ Next\ W01\ Light.ttf);
+}
+nav{
+display: flex;
+align-items: center;
+
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:Marzo ;
+    color:#ff9f25;
+    font-size: 32px;
+    background-color: transparent;
+    border-style: 5;
+    border:1px solid #ff9f25 ;
+    border-radius: 50%;
+    height: 123px ;
+    width: 126px;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-right: 65px;
+}
+.paginas{
+    font-family:din next;
+    font-size: 18px;
+    color: #888785;
+    display: flex;
+    gap: 54px;
+    margin-right: 250px;
+}
+.inicio{
+    color:#6c8801
+}
+.compras{
+    height: 50px;
+    width: 33px;
+}
+.sacola{
+    height: 33px;
+    width: 33px;
+}
+.inicial{
+    padding:0 35%;
+    position: relative;
+    margin: 50px 0 150px;
+}
+.garrafa{
+    width: 188px;
+    height: 597px;
+
+}
+.propaganda{
+    font-family:"Open Sans Condensed";
+    font-size: 48px;
+    color:#6c8801;
+    position: absolute;
+    top:10%;
+    right: 29%;
+}
+.compre{
+    font-family:din next ;
+    font-size: 22px;
+    position: absolute;
+    top: 55%;
+    right: 45%;
+    color:white;
+    background-color: #b5d831;
+    border:none;
+    width:160px ;
+    height:40px ;
+
+    cursor: pointer;
+    transition: .5s;
+}
+.compre:hover {
+    background: #d1cdc9;
+}
+.limao{
+    position: absolute;
+    bottom: -100px;
+    right: 35%;
+}
+
+.adesivo_da_garrafa {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:Marzo ;
+    color: #deee9f;
+    background-color:#ff9f2566;
+    font-size: 32px;
+    border-style: 5;
+    border-radius: 50%;
+    height: 123px ;
+    width: 126px;
+    bottom: 90px;
+    left: 36.5%;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+footer{
+    font-family:din next ;
+    font-size: 12px;
+    color: #888785;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
